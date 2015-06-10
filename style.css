@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: url(../img/bg.jpg) ;
+}
+
+/*------------------------------------------------
+                    typography
+--------------------------------------------------*/
+
+h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #464545;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #4e4e4e;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #464545;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+a:link {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*------------------------------------------------
+                     intro
+--------------------------------------------------*/
+
+
+
+/*------------------------------------------------
+                      work
+--------------------------------------------------*/
+
+#work {
+  margin-top: -7px;
+  background: url(../img/work_bg.png) repeat;width: 100%;
+  height: 760px;position: relative;
+  z-index: 400;
+}
+
+.subheader {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.subheader h2 {
+  display: inline-block;
+}
+
+.subheader_line {
+  background: url(../img/subheader_line.png) no-repeat;
+  width: 348px;
+  height: 8px;
+  margin: 0 10px 5px 10px;
+  display: inline-block;
+}
+
+/*------------------------------------------------
+                      nav
+--------------------------------------------------*/
+
+#nav{
+ float:center;
+ width:460px;
+ height:75px;
+ font-size:1.4em;
+ background:url(../img/nav_bg.jpg);
+}
+
+#nav li a{
+ color:#fff;
+ float:center;
+ padding:20px 20px 20px 0;
+}
+
+/*------------------------------------------------
+                    learn
+--------------------------------------------------*/
+
+#learn {
+  width: 100%;
+  height: 630px;
+  background-color: #fff;
+  position: relative;
+  z-index: 400;
+  text-align: center;
+}
+
+.serv_icons {
+  margin: 80px 0 20px 0;
+}
+
+.serv_icons h3 {
+  margin: 18px 0 18px 0;
+}
+
+.serv_icons p {
+  color: #686868;
+  font-size: 17px;
+}
+
+/*------------------------------------------------
+                      mainmenu
+--------------------------------------------------*/
+
+body .mainmenu:after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+
+body .mainmenu li{
+  float:left;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  width: 30%; 
+  border-radius:3px; 
+  overflow:hidden;
+}
+
+body .mainmenu li a{
+  display:block;
+  color:#FFF;   
+  text-align:center
+}
+
+body .mainmenu li a b{
+  display:block; 
+  height:80px;
+}
+
+body .mainmenu li a img{ 
+  margin: 15px auto 15px;
+  width: 50px;height: 50px;
+}
+
+body .mainmenu li a span{
+  display:block;
+  height:30px;
+  line-height:30px;
+  background-color:#FFF; 
+  color: #999; 
+  font-size:14px; 
+}
+
+body .mainmenu li:nth-child(8n+1) {
+  background-color:#36A1DB
+}
+
+body .mainmenu li:nth-child(8n+2) {
+  background-color:#678ce1
+}
+
+body .mainmenu li:nth-child(8n+3) {
+  background-color:#8c67df
+}
+
+body .mainmenu li:nth-child(8n+4) {
+  background-color:#84d018
+}
+
+body .mainmenu li:nth-child(8n+5) {
+  background-color:#14c760
+}
+
+body .mainmenu li:nth-child(8n+6) {
+  background-color:#f3b613
+}
+
+body .mainmenu li:nth-child(8n+7) {
+  background-color:#ff8a4a
+}
+
+body .mainmenu li:nth-child(8n+8) {
+  background-color:#fc5366
+}
+
+
+/*------------------------------------------------
+                      about
+--------------------------------------------------*/
+
+#about {
+  background: url(../img/about_bg.png) repeat;
+  width: 100%;
+  height: 620px;
+  position: relative;
+  z-index: 400;
+  margin-top: -13px;
+}
+
+#about .subheader {
+  margin-top: 83px;
+}
+
+#about h4 {
+  margin-bottom: 15px;
+}
+
+
+/*------------------------------------------------
+                      footer
+--------------------------------------------------*/
+
+footer {
+  height: 50px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+

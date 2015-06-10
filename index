@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/ >
+	<title>Fancyclub</title>
+	<meta name="description" content="" />
+  <meta name="keywords" content="" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/960.css" rel="stylesheet" type="text/css" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<link href="css/iscroll.css" rel="stylesheet" type="text/css" />
+	<link href="fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript" src="jquery/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="cform.js"></script>
+	
+<script type="text/javascript"> // sticky nav bar 
+  $(document).ready(function(){
+    $("nav").sticky({topSpacing:0});
+  });
+</script>
+
+<script type="text/javascript"> // fancybox
+$(document).ready(function() {
+
+	/* This is basic - uses default settings */
+	
+	$("a.single_image").fancybox();
+	
+	/* Using custom settings */
+	
+	$("a#inline").fancybox({
+		'hideOnContentClick': true
+	});
+
+	/* Apply fancybox to multiple items */
+	
+	$("a.group").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+	
+});
+</script>
+	
+</head>
+
+<!-- top bar -->
+
+
+<!--div id="intro">
+	
+</div--> <!-- end #intro -->
+
+<div class="topbar">
+          <ul id="nav">
+              <li><a class="account" title="#" href="index.html">我的账户</a></li>
+              <li><a class="regist" title="#" href="regist.html">注册</a></li>
+              <li><a class="login" title="#" href="login/login.html">登陆</a></li>
+          </ul>
+	</div> 
+	
+<!--learn -->
+<div id="learn">
+	<div class="container_16">
+	    <div class="subheader">
+			<div class="subheader_line"></div><h2>learn</h2><div class="subheader_line"></div>
+		</div>
+		
+		<div class="serv_icons">
+			<ul class="mainmenu">
+	         <li><a href="/" ><b><img src="images/tb01.png" /></b><span>关于我们</span></a></li>
+           <li><a href="/" ><b><img src="images/tb02.png" /></b><span>新闻中心</span></a></li>
+           <li><a href="/" ><b><img src="images/tb03.png" /></b><span>作品展示</span></a></li>
+           <li><a href="/" ><b><img src="images/tb04.png" /></b><span>成功案例</span></a></li>
+           <li><a href="/" ><b><img src="images/tb05.png" /></b><span>下载中心</span></a></li>
+           <li><a href="/" ><b><img src="images/tb06.png" /></b><span>团队介绍</span></a></li>
+           <li><a href="/" ><b><img src="images/tb06.png" /></b><span>队友招募</span></a></li>
+           <li><a href="/" ><b><img src="images/tb07.png" /></b><span>联系我们</span></a></li>
+           <li><a href="/" ><b><img src="images/tb08.png" /></b><span>在线留言</span></a></li>     	 
+      </ul>
+		</div> <!-- end .serv_icons -->
+	</div> <!-- end .container_16 -->
+</div> <!-- end #services -->
+
+<!--   about   -->
+<div id="about">
+	<div class="container_16">
+	    <div class="subheader">
+			<div class="subheader_line"></div><h2>about</h2><div class="subheader_line"></div>
+		</div>
+	    <div class="grid_5">
+		   <div class="skills">
+			  <h4></h4>
+			    <ul>
+				   <li><div class="skill1"><p></p></div></li>
+				   <li><div class="skill2"><p></p></div></li>
+				   <li><div class="skill3"><p></p></div></li>
+				   <li><div class="skill4"><p></p></div></li>
+				   <li><div class="skill5"><p></p></div></li>
+				   <li><div class="skill6"><p></p></div></li>
+			    </ul>
+		   </div> <!-- end .skills -->
+	    </div> <!-- end .grid_5 -->
+	</div> <!-- end .container_16 -->
+</div> <!-- end #about -->
+
+<!--start footer -->
+<footer>
+	<p>&copy; 2015 All rights reserved</p>
+</footer>
+</html>
